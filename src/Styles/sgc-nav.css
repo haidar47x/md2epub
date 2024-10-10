@@ -10,3 +10,41 @@ ol {
     list-style-type: none;
 }
 
+.hidden {
+	display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Candara", sans-serif;
+}
+
+body {
+	font-family: "Palatino Linotype", serif;
+}
+
+code, pre, var {
+	font-family: "Cascadia Code Mono", monospace;
+}
+
+nav {
+	margin: 2.4em 0;
+}
+
+nav h2 + ol {
+	margin-top: 2.4em;
+}
+
+nav h2 {
+	text-align: center;
+}
+
+ol li {
+	padding: 0.16em 0;
+}
+
+ol li a {
+	text-decoration: none;
+	font-weight: 600;
+	color: #98971a !important;
+	border-bottom: 1px solid #98971a;
+}
